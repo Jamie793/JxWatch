@@ -1,0 +1,573 @@
+{
+  "name": "JxWatch",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    "../Libraries"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Application",
+        "files": [],
+        "folders": [
+          {
+            "name": "MDK-ARM",
+            "files": [
+              {
+                "path": "startup_stm32l431xx.s"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "User",
+            "files": [],
+            "folders": [
+              {
+                "name": "Core",
+                "files": [
+                  {
+                    "path": "../Core/Src/main.c"
+                  },
+                  {
+                    "path": "../Core/Src/gpio.c"
+                  },
+                  {
+                    "path": "../Core/Src/i2c.c"
+                  },
+                  {
+                    "path": "../Core/Src/spi.c"
+                  },
+                  {
+                    "path": "../Core/Src/tim.c"
+                  },
+                  {
+                    "path": "../Core/Src/usart.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32l4xx_it.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32l4xx_hal_msp.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Drivers",
+        "files": [],
+        "folders": [
+          {
+            "name": "STM32L4xx_HAL_Driver",
+            "files": [
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c"
+              },
+              {
+                "path": "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "../Core/Src/system_stm32l4xx.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "b0f7109ee46ae13a46317c9f435ab1e1"
+  },
+  "targets": {
+    "STM32Watch": {
+      "excludeList": [
+        "../Libraries/Lvgl/src/draw/nxp",
+        "../Libraries/Lvgl/src/draw/renesas",
+        "../Libraries/Lvgl/src/draw/vg_lite",
+        "../Libraries/Lvgl/src/draw/sdl",
+        "../Libraries/Lvgl/src/draw/sw",
+        "LIBRARIES",
+        ".",
+        "../Libraries/Lvgl/src/drivers/x11",
+        "../Libraries/Lvgl/src/drivers/windows",
+        "../Libraries/Lvgl/src/drivers/sdl",
+        "../Libraries/Lvgl/src/drivers/nuttx",
+        "../Libraries/Lvgl/src/drivers/libinput",
+        "../Libraries/Lvgl/src/drivers/evdev",
+        "../Libraries/Lvgl/src/drivers/display/tft_espi",
+        "../Libraries/Lvgl/src/drivers/display/st7796",
+        "../Libraries/Lvgl/src/drivers/display/st7735",
+        "../Libraries/Lvgl/src/drivers/display/ili9341",
+        "../Libraries/Lvgl/src/drivers/display/fb",
+        "../Libraries/Lvgl/src/drivers/display/drm",
+        "../Libraries/Lvgl/src/osal/lv_windows.c",
+        "../Libraries/Lvgl/src/osal/lv_rtthread.c",
+        "../Libraries/Lvgl/src/osal/lv_pthread.c",
+        "../Libraries/Lvgl/src/osal/lv_os_none.c",
+        "../Libraries/Lvgl/src/osal/lv_cmsis_rtos2.c"
+      ],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0xc000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x10000000",
+                "size": "0x4000"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x20000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "ST",
+          "cpuName": "STM32L431RC"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../Core/Inc",
+          "../Drivers/STM32L4xx_HAL_Driver/Inc",
+          "../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+          "../Drivers/CMSIS/Device/ST/STM32L4xx/Include",
+          "../Drivers/CMSIS/Include",
+          "RTE/_STM32Watch",
+          "../Libraries/FreeRTOS/include",
+          "../Libraries/Lvgl",
+          "../Libraries/Lvgl/port",
+          "../Libraries/Lvgl/src",
+          "e:/2-InstalledSoftware/Keil_v5/ARM/ARMCC/include",
+          "../Libraries/Lvgl/src/drivers/display/st7789"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32L431xx"
+        ]
+      }
+    },
+    "JxWatch": {
+      "excludeList": [
+        "../Libraries/FreeRTOS-Kernel/examples",
+        "../Libraries/FreeRTOS-Kernel/portable/ARMClang",
+        "../Libraries/FreeRTOS-Kernel/portable/ARMv8M",
+        "../Libraries/FreeRTOS-Kernel/portable/BCC",
+        "../Libraries/FreeRTOS-Kernel/portable/Common",
+        "../Libraries/FreeRTOS-Kernel/portable/CCS",
+        "../Libraries/FreeRTOS-Kernel/portable/CodeWarrior",
+        "../Libraries/FreeRTOS-Kernel/portable/IAR",
+        "../Libraries/FreeRTOS-Kernel/portable/Keil",
+        "../Libraries/FreeRTOS-Kernel/portable/MemMang/heap_5.c",
+        "../Libraries/FreeRTOS-Kernel/portable/MemMang/heap_3.c",
+        "../Libraries/FreeRTOS-Kernel/portable/MemMang/heap_2.c",
+        "../Libraries/FreeRTOS-Kernel/portable/MemMang/heap_1.c",
+        "../Libraries/FreeRTOS-Kernel/portable/MikroC",
+        "../Libraries/FreeRTOS-Kernel/portable/MPLAB",
+        "../Libraries/FreeRTOS-Kernel/portable/WizC",
+        "../Libraries/FreeRTOS-Kernel/portable/ThirdParty",
+        "../Libraries/FreeRTOS-Kernel/portable/template",
+        "../Libraries/FreeRTOS-Kernel/portable/Tasking",
+        "../Libraries/FreeRTOS-Kernel/portable/Softune",
+        "../Libraries/FreeRTOS-Kernel/portable/SDCC",
+        "../Libraries/FreeRTOS-Kernel/portable/Rowley",
+        "../Libraries/FreeRTOS-Kernel/portable/Renesas",
+        "../Libraries/FreeRTOS-Kernel/portable/Paradigm",
+        "../Libraries/FreeRTOS-Kernel/portable/oWatcom",
+        "../Libraries/FreeRTOS-Kernel/portable/MSVC-MingW",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/TriCore_1782",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/STR75x",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/RX700v3_DPFPU",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/RX600v2",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/RX600",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/RX200",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/RX100",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/RL78",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/RISC-V",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/PPC440_Xilinx",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/NiosII",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/MSP430F449",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/MicroBlazeV9",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/MicroBlazeV8",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/MicroBlaze",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/MCF5235",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/IA32_flat",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/PPC405_Xilinx",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/H8S2329",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/CORTUS_APS3",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM7_AT91FR40008",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM7_AT91SAM7S",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM7_LPC2000",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM7_LPC23xx",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_AARCH64",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_AARCH64_SRE",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CA53_64_BIT",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CA53_64_BIT_SRE",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CA9",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM0",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM23",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM23_NTZ",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM3",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM33",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM33_NTZ",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM35P",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM35P_NTZ",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM3_MPU",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/HCS12",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ColdFire_V2",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/AVR_Mega0",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/AVR32_UC3",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ATMega323",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/AVR_AVRDx",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CRx_No_GIC",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CRx_MPU",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM85_NTZ",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM4_MPU",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM55",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM55_NTZ",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM7",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM85",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CR5",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+        "../Libraries/FreeRTOS-Kernel/portable/GCC",
+        "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM7_LPC21xx",
+        "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CA9",
+        "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM0",
+        "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM3",
+        "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM4_MPU",
+        "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM7",
+        "../Libraries/lvgl"
+      ],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0xC000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x10000000",
+                "size": "0x4000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x08000000",
+                "size": "0x40000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "ST",
+          "cpuName": "STM32L431RC"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../Core/Inc",
+          "../Drivers/STM32L4xx_HAL_Driver/Inc",
+          "../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+          "../Drivers/CMSIS/Device/ST/STM32L4xx/Include",
+          "../Drivers/CMSIS/Include",
+          "RTE/_JxWatch",
+          "../Libraries/FreeRTOS-Kernel/include",
+          "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM4F"
+        ],
+        "libList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32L431xx"
+        ]
+      }
+    }
+  },
+  "version": "3.4"
+}
