@@ -620,7 +620,8 @@ CMSIS\5.7.0\CMSIS\Core\Include -IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs
 \Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include --predefine
 ="__UVISION_VERSION SETA 524" --predefine="_RTE_ SETA 1" --predefine="STM32L431
 xx SETA 1" --predefine="USE_HAL_DRIVER SETA 1" --predefine="STM32L431xx SETA 1"
- --list=startup_stm32l431xx.lst startup_stm32l431xx.s
+ --predefine="LV_CONF_INCLUDE_SIMPLE SETA 1" --predefine="LV_LVGL_H_INCLUDE_SIM
+PLE SETA 1" --list=startup_stm32l431xx.lst startup_stm32l431xx.s
 
 
 
@@ -1553,4 +1554,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-432 symbols in table
+434 symbols in table

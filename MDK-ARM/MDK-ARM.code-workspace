@@ -6,7 +6,19 @@
     ],
     "settings": {
         "files.associations": {
-            "main.h": "c"
+            "main.h": "c",
+            "lv_port_disp.h": "c",
+            "lvgl.h": "c",
+            "lv_st7789.h": "c",
+            "lv_lcd_generic_mipi.h": "c",
+            "stm32l4xx_hal.h": "c",
+            "stm32l4xx_hal_conf.h": "c",
+            "stm32l4xx_hal_spi.h": "c",
+            "stm32l4xx_hal_def.h": "c",
+            "spi.h": "c",
+            "lv_port_lcd_stm32.h": "c",
+            "freertos.h": "c",
+            "freertosconfig.h": "c"
         }
     },
     "extensions": {}

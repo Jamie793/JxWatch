@@ -52,6 +52,9 @@
                   },
                   {
                     "path": "../Core/Src/stm32l4xx_hal_msp.c"
+                  },
+                  {
+                    "path": "../Core/Src/lv_port_lcd_stm32.c"
                   }
                 ],
                 "folders": []
@@ -420,7 +423,52 @@
         "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM3",
         "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM4_MPU",
         "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM7",
-        "../Libraries/lvgl"
+        "../Libraries/lvgl/demos",
+        "../Libraries/lvgl/examples",
+        "../Libraries/lvgl/scripts",
+        "../Libraries/lvgl/tests",
+        "../Libraries/lvgl/zephyr",
+        "../Libraries/lvgl/src/draw/nxp",
+        "../Libraries/lvgl/src/draw/renesas",
+        "../Libraries/lvgl/src/draw/sdl",
+        "../Libraries/lvgl/src/draw/sw",
+        "../Libraries/lvgl/src/draw/vg_lite",
+        "../Libraries/lvgl/src/drivers/display/st7735",
+        "../Libraries/lvgl/src/drivers/display/renesas_glcdc",
+        "../Libraries/lvgl/src/drivers/display/ili9341",
+        "../Libraries/lvgl/src/drivers/display/fb",
+        "../Libraries/lvgl/src/drivers/display/drm",
+        "../Libraries/lvgl/src/drivers/display/st7796",
+        "../Libraries/lvgl/src/drivers/display/tft_espi",
+        "../Libraries/lvgl/src/drivers/libinput",
+        "../Libraries/lvgl/src/drivers/glfw",
+        "../Libraries/lvgl/src/drivers/nuttx",
+        "../Libraries/lvgl/src/drivers/qnx",
+        "../Libraries/lvgl/src/drivers/sdl",
+        "../Libraries/lvgl/src/drivers/windows",
+        "../Libraries/lvgl/src/drivers/x11",
+        "../Libraries/lvgl/src/osal/lv_windows.c",
+        "../Libraries/lvgl/src/osal/lv_rtthread.c",
+        "../Libraries/lvgl/src/osal/lv_pthread.c",
+        "../Libraries/lvgl/src/osal/lv_mqx.c",
+        "../Libraries/lvgl/src/osal/lv_freertos.c",
+        "../Libraries/lvgl/src/osal/lv_cmsis_rtos2.c",
+        "../Libraries/lvgl/src/libs/barcode",
+        "../Libraries/lvgl/src/libs/bmp",
+        "../Libraries/lvgl/src/libs/ffmpeg",
+        "../Libraries/lvgl/src/libs/freetype",
+        "../Libraries/lvgl/src/libs/fsdrv",
+        "../Libraries/lvgl/src/libs/gif",
+        "../Libraries/lvgl/src/libs/libjpeg_turbo",
+        "../Libraries/lvgl/src/libs/libpng",
+        "../Libraries/lvgl/src/libs/lodepng",
+        "../Libraries/lvgl/src/libs/lz4",
+        "../Libraries/lvgl/src/libs/qrcode",
+        "../Libraries/lvgl/src/libs/rle",
+        "../Libraries/lvgl/src/libs/rlottie",
+        "../Libraries/lvgl/src/libs/thorvg",
+        "../Libraries/lvgl/src/libs/tiny_ttf",
+        "../Libraries/lvgl/src/libs/tjpgd"
       ],
       "toolchain": "AC5",
       "compileConfig": {
@@ -559,12 +607,15 @@
           "../Drivers/CMSIS/Include",
           "RTE/_JxWatch",
           "../Libraries/FreeRTOS-Kernel/include",
-          "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM4F"
+          "../Libraries/FreeRTOS-Kernel/portable/RVDS/ARM_CM4F",
+          "../Libraries/lvgl/src"
         ],
         "libList": [],
         "defineList": [
           "USE_HAL_DRIVER",
-          "STM32L431xx"
+          "STM32L431xx",
+          "LV_CONF_INCLUDE_SIMPLE",
+          "LV_LVGL_H_INCLUDE_SIMPLE"
         ]
       }
     }
