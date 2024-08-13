@@ -1,997 +1,0 @@
-Dependencies for Project 'STM32Watch', Target 'STM32Watch': (DO NOT MODIFY !)
-CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
-F (startup_stm32l431xx.s)(0x66250C74)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32L431xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32l431xx.lst --xref -o stm32watch\startup_stm32l431xx.o --depend stm32watch\startup_stm32l431xx.d)
-F (../Core/Src/main.c)(0x66250EC1)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\main.o --omf_browse stm32watch\main.crf --depend stm32watch\main.d)
-I (../Core/Inc/main.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-I (../Core/Inc/i2c.h)(0x6624ED3B)
-I (../Core/Inc/spi.h)(0x6624ED3B)
-I (../Core/Inc/usart.h)(0x6624ED3B)
-I (../Core/Inc/gpio.h)(0x6624ED3A)
-F (../Core/Src/gpio.c)(0x6624ED3A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\gpio.o --omf_browse stm32watch\gpio.crf --depend stm32watch\gpio.d)
-I (../Core/Inc/gpio.h)(0x6624ED3A)
-I (../Core/Inc/main.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Core/Src/i2c.c)(0x6624ED3B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\i2c.o --omf_browse stm32watch\i2c.crf --depend stm32watch\i2c.d)
-I (../Core/Inc/i2c.h)(0x6624ED3B)
-I (../Core/Inc/main.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Core/Src/spi.c)(0x6624ED3B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\spi.o --omf_browse stm32watch\spi.crf --depend stm32watch\spi.d)
-I (../Core/Inc/spi.h)(0x6624ED3B)
-I (../Core/Inc/main.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Core/Src/usart.c)(0x66250D78)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\usart.o --omf_browse stm32watch\usart.crf --depend stm32watch\usart.d)
-I (../Core/Inc/usart.h)(0x6624ED3B)
-I (../Core/Inc/main.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (../Core/Src/stm32l4xx_it.c)(0x6624ED3B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_it.o --omf_browse stm32watch\stm32l4xx_it.crf --depend stm32watch\stm32l4xx_it.d)
-I (../Core/Inc/main.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_it.h)(0x6624ED3B)
-F (../Core/Src/stm32l4xx_hal_msp.c)(0x6624ED3C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_msp.o --omf_browse stm32watch\stm32l4xx_hal_msp.crf --depend stm32watch\stm32l4xx_hal_msp.d)
-I (../Core/Inc/main.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_i2c.o --omf_browse stm32watch\stm32l4xx_hal_i2c.crf --depend stm32watch\stm32l4xx_hal_i2c.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_i2c_ex.o --omf_browse stm32watch\stm32l4xx_hal_i2c_ex.crf --depend stm32watch\stm32l4xx_hal_i2c_ex.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal.o --omf_browse stm32watch\stm32l4xx_hal.crf --depend stm32watch\stm32l4xx_hal.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_rcc.o --omf_browse stm32watch\stm32l4xx_hal_rcc.crf --depend stm32watch\stm32l4xx_hal_rcc.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_rcc_ex.o --omf_browse stm32watch\stm32l4xx_hal_rcc_ex.crf --depend stm32watch\stm32l4xx_hal_rcc_ex.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_flash.o --omf_browse stm32watch\stm32l4xx_hal_flash.crf --depend stm32watch\stm32l4xx_hal_flash.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_flash_ex.o --omf_browse stm32watch\stm32l4xx_hal_flash_ex.crf --depend stm32watch\stm32l4xx_hal_flash_ex.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_flash_ramfunc.o --omf_browse stm32watch\stm32l4xx_hal_flash_ramfunc.crf --depend stm32watch\stm32l4xx_hal_flash_ramfunc.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_gpio.o --omf_browse stm32watch\stm32l4xx_hal_gpio.crf --depend stm32watch\stm32l4xx_hal_gpio.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_dma.o --omf_browse stm32watch\stm32l4xx_hal_dma.crf --depend stm32watch\stm32l4xx_hal_dma.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_dma_ex.o --omf_browse stm32watch\stm32l4xx_hal_dma_ex.crf --depend stm32watch\stm32l4xx_hal_dma_ex.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_pwr.o --omf_browse stm32watch\stm32l4xx_hal_pwr.crf --depend stm32watch\stm32l4xx_hal_pwr.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_pwr_ex.o --omf_browse stm32watch\stm32l4xx_hal_pwr_ex.crf --depend stm32watch\stm32l4xx_hal_pwr_ex.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_cortex.o --omf_browse stm32watch\stm32l4xx_hal_cortex.crf --depend stm32watch\stm32l4xx_hal_cortex.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_exti.o --omf_browse stm32watch\stm32l4xx_hal_exti.crf --depend stm32watch\stm32l4xx_hal_exti.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_spi.o --omf_browse stm32watch\stm32l4xx_hal_spi.crf --depend stm32watch\stm32l4xx_hal_spi.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_spi_ex.o --omf_browse stm32watch\stm32l4xx_hal_spi_ex.crf --depend stm32watch\stm32l4xx_hal_spi_ex.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_tim.o --omf_browse stm32watch\stm32l4xx_hal_tim.crf --depend stm32watch\stm32l4xx_hal_tim.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_tim_ex.o --omf_browse stm32watch\stm32l4xx_hal_tim_ex.crf --depend stm32watch\stm32l4xx_hal_tim_ex.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_uart.o --omf_browse stm32watch\stm32l4xx_hal_uart.crf --depend stm32watch\stm32l4xx_hal_uart.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c)(0x6624F3E9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stm32l4xx_hal_uart_ex.o --omf_browse stm32watch\stm32l4xx_hal_uart_ex.crf --depend stm32watch\stm32l4xx_hal_uart_ex.d)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (../Core/Src/system_stm32l4xx.c)(0x6624F3E4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\system_stm32l4xx.o --omf_browse stm32watch\system_stm32l4xx.crf --depend stm32watch\system_stm32l4xx.d)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h)(0x6624F3E4)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6624F3E9)
-I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x6624F3E4)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x6624F3E9)
-I (../Core/Inc/stm32l4xx_hal_conf.h)(0x6624ED3C)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6624F3E9)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x6624F3E9)
-I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x6624F3E9)
-F (..\FreeRTOS\croutine.c)(0x64020E50)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\croutine.o --omf_browse stm32watch\croutine.crf --depend stm32watch\croutine.d)
-F (..\FreeRTOS\event_groups.c)(0x64020E50)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\event_groups.o --omf_browse stm32watch\event_groups.crf --depend stm32watch\event_groups.d)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-F (..\FreeRTOS\list.c)(0x64020E50)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\list.o --omf_browse stm32watch\list.crf --depend stm32watch\list.d)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-F (..\FreeRTOS\port.c)(0x64020E50)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\port.o --omf_browse stm32watch\port.crf --depend stm32watch\port.d)
-F (..\FreeRTOS\queue.c)(0x64020E50)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\queue.o --omf_browse stm32watch\queue.crf --depend stm32watch\queue.d)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
-F (..\FreeRTOS\stream_buffer.c)(0x64020E50)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\stream_buffer.o --omf_browse stm32watch\stream_buffer.crf --depend stm32watch\stream_buffer.d)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
-F (..\FreeRTOS\tasks.c)(0x64020E50)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\tasks.o --omf_browse stm32watch\tasks.crf --depend stm32watch\tasks.d)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
-F (..\FreeRTOS\timers.c)(0x64020E50)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\timers.o --omf_browse stm32watch\timers.crf --depend stm32watch\timers.d)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-F (..\FreeRTOS\heap_4.c)(0x64020E50)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_STM32Watch-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\2-InstalledSoftware\Keil_v5\Packl\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32L431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32L431xx-o stm32watch\heap_4.o --omf_browse stm32watch\heap_4.crf --depend stm32watch\heap_4.d)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
-I (E:\2-InstalledSoftware\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)

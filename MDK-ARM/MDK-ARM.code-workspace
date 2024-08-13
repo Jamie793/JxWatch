@@ -5,21 +5,41 @@
         }
     ],
     "settings": {
+        "files.autoGuessEncoding": true,
+        "C_Cpp.default.configurationProvider": "cl.eide",
+        "C_Cpp.errorSquiggles": "disabled",
         "files.associations": {
-            "main.h": "c",
-            "lv_port_disp.h": "c",
-            "lvgl.h": "c",
-            "lv_st7789.h": "c",
-            "lv_lcd_generic_mipi.h": "c",
-            "stm32l4xx_hal.h": "c",
-            "stm32l4xx_hal_conf.h": "c",
-            "stm32l4xx_hal_spi.h": "c",
-            "stm32l4xx_hal_def.h": "c",
-            "spi.h": "c",
-            "lv_port_lcd_stm32.h": "c",
-            "freertos.h": "c",
-            "freertosconfig.h": "c"
+            ".eideignore": "ignore",
+            "*.a51": "a51",
+            "*.h": "c",
+            "*.c": "c",
+            "*.hxx": "cpp",
+            "*.hpp": "cpp",
+            "*.c++": "cpp",
+            "*.cpp": "cpp",
+            "*.cxx": "cpp",
+            "*.cc": "cpp"
+        },
+        "[yaml]": {
+            "editor.insertSpaces": true,
+            "editor.tabSize": 4,
+            "editor.autoIndent": "advanced"
         }
     },
-    "extensions": {}
+    "extensions": {
+        "recommendations": [
+            "cl.eide",
+            "keroc.hex-fmt",
+            "xiaoyongdong.srecord",
+            "hars.cppsnippets",
+            "zixuanwang.linkerscript",
+            "redhat.vscode-yaml",
+            "IBM.output-colorizer",
+            "cschlosser.doxdocgen",
+            "ms-vscode.vscode-serial-monitor",
+            "alefragnani.project-manager",
+            "dan-c-underwood.arm",
+            "marus25.cortex-debug"
+        ]
+    }
 }
