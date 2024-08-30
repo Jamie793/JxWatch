@@ -71,6 +71,9 @@
  #define configSYSTICK_CLOCK_HZ                  [Platform specific]
  */
 
+/*!< STM32L4XX uses 4 Bits for the Priority Levels */
+#define __NVIC_PRIO_BITS          4U       
+
 /******************************************************************************/
 /* Scheduling behaviour related definitions. **********************************/
 /******************************************************************************/
@@ -315,7 +318,7 @@
  * switch performing interrupts.  Not supported by all FreeRTOS ports.  See
  * https://www.freertos.org/RTOS-Cortex-M3-M4.html for information specific to
  * ARM Cortex-M devices. */
-#define configKERNEL_INTERRUPT_PRIORITY          0
+#define configKERNEL_INTERRUPT_PRIORITY          (15 << (8 - __NVIC_PRIO_BITS))
 
 /* configMAX_SYSCALL_INTERRUPT_PRIORITY sets the interrupt priority above which
  * FreeRTOS API calls must not be made.  Interrupts above this priority are
@@ -323,7 +326,7 @@
  * to the highest interrupt priority (0).  Not supported by all FreeRTOS ports.
  * See https://www.freertos.org/RTOS-Cortex-M3-M4.html for information specific
  * to ARM Cortex-M devices. */
-#define configMAX_SYSCALL_INTERRUPT_PRIORITY     0xF0
+#define configMAX_SYSCALL_INTERRUPT_PRIORITY    (5 << (8 - __NVIC_PRIO_BITS))
 
 /* Another name for configMAX_SYSCALL_INTERRUPT_PRIORITY - the name used depends
  * on the FreeRTOS port. */
@@ -624,7 +627,7 @@
  * configCHECK_HANDLER_INSTALLATION to 0.
  *
  * Defaults to 1 if left undefined. */
-#define configCHECK_HANDLER_INSTALLATION    1
+#define configCHECK_HANDLER_INSTALLATION    0
 
 /******************************************************************************/
 /* Definitions that include or exclude functionality. *************************/
