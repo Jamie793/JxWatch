@@ -48,36 +48,26 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 
 file(GLOB_RECURSE LVGL_SOURCES 
-    ./Libraries/lvgl/src/lv_init.c
     ./Libraries/lvgl/src/core/*.c
-    ./Libraries/lvgl/src/display/*.c
     ./Libraries/lvgl/src/draw/*.c
-    ./Libraries/lvgl/src/drivers/display/st7789/*.c
-    ./Libraries/lvgl/src/drivers/display/lcd/*.c
+    ./Libraries/lvgl/src/extra/*.c
     ./Libraries/lvgl/src/font/*.c
-    ./Libraries/lvgl/src/indev/*.c
-    ./Libraries/lvgl/src/layouts/*.c
-    ./Libraries/lvgl/src/libs/bin_decoder/lv_bin_decoder.c
+    ./Libraries/lvgl/src/hal/*.c
     ./Libraries/lvgl/src/misc/*.c
-    ./Libraries/lvgl/src/misc/**/*.c
-    ./Libraries/lvgl/src/osal/lv_freertos.c
-    ./Libraries/lvgl/src/others/*.c
-    ./Libraries/lvgl/src/stdlib/*.c
-    ./Libraries/lvgl/src/themes/*.c
-    ./Libraries/lvgl/src/tick/*.c
     ./Libraries/lvgl/src/widgets/*.c
+    ./Libraries/lvgl/demos/widgets/*.c
 )
-
-
-# Exclude specific subdirectories by removing their files from LVGL_SOURCES
+    
+    
+    # Exclude specific subdirectories by removing their files from LVGL_SOURCES
 file(GLOB_RECURSE EXCLUDE_SOURCES 
+    ./Libraries/lvgl/src/extra/libs/*.c
+    ./Libraries/lvgl/src/draw/arm2d/*.c
     ./Libraries/lvgl/src/draw/nxp/*.c
     ./Libraries/lvgl/src/draw/renesas/*.c
     ./Libraries/lvgl/src/draw/sdl/*.c
-    ./Libraries/lvgl/src/draw/sw/*.c
-    ./Libraries/lvgl/src/draw/vg_lite/*.c
-    ./Libraries/lvgl/src/stdlib/rtthread/*.c
-    ./Libraries/lvgl/src/stdlib/micropython/*.c
+    ./Libraries/lvgl/src/draw/stm32_dma2d/*.c
+    ./Libraries/lvgl/src/draw/swm341_dma2d/*.c
 )
 
 # Remove the excluded files from the LVGL_SOURCES list
@@ -87,10 +77,15 @@ list(REMOVE_ITEM LVGL_SOURCES ${EXCLUDE_SOURCES})
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
 
-    #APP
+    # APP
     ./App/tasks/task_screen.c
+    ./App/tasks/task_test.c
 
-    #FreeRTOS
+    # Drivers
+    ./Drivers/LCD/st7789v.c
+    ./Drivers/LCD/cst816t.c
+
+    # FreeRTOS
     ./Libraries/FreeRTOS-Kernel/list.c 
     ./Libraries/FreeRTOS-Kernel/queue.c 
     ./Libraries/FreeRTOS-Kernel/tasks.c 
@@ -100,7 +95,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ./Libraries/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 
     # LVGL
-    ./Core/Src/lv_port_lcd_stm32.c
+    ./Core/Src/lv_port_disp.c
     ${LVGL_SOURCES}
 
     
@@ -109,9 +104,15 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+
+    # Drivers
+    ./Drivers/LCD
+
+    # FreeRTOS
     ./Libraries/FreeRTOS-Kernel/include
     ./Libraries/FreeRTOS-Kernel/portable/GCC/ARM_CM4F
 
+    # LVGL
     ./Libraries/lvgl/src
 )
 
