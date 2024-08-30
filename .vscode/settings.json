@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "lv_global.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "list.h": "c",
+        "lv_st7789.h": "c",
+        "st7789.h": "c",
+        "st7789v.h": "c",
+        "spi.h": "c",
+        "stm32l4xx_hal.h": "c",
+        "lv_port_disp.h": "c",
+        "random": "c",
+        "compare": "c",
+        "lvgl.h": "c",
+        "stdbool.h": "c",
+        "semphr.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": false
+}
