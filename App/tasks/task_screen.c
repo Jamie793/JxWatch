@@ -1,26 +1,31 @@
 #include "main.h"
+#include "semphr.h"
+
 static SemaphoreHandle_t uixMutex;
+TaskHandle_t lvglTaskToNotify;
 
 portTASK_FUNCTION_PROTO(xTask_Lvgl_handler, pvParameters)
 {
+    /** Init mutex lock */
     uixMutex = xSemaphoreCreateMutex();
+    lvglTaskToNotify = xTaskGetCurrentTaskHandle();
 
-    /* Turn on LCD backlight */
-    HAL_GPIO_WritePin(LCD_BL_GPIO_Port, LCD_BL_Pin, SET);
+    if (uixMutex == NULL)
+        return;
+
     lv_init();
-    lv_port_display_init();
-    lv_obj_t *label = lv_label_create(lv_screen_active());
-    lv_label_set_text(label, "Hello world");
+    lv_port_disp_init();
+
+    lv_obj_t *label = lv_label_create(lv_scr_act());
+    lv_label_set_text(label, "Hello world\nHello Jamiexu");
+    lv_obj_align(label, LV_DIR_ALL, 80, 160);
 
     for (;;)
     {
         /* code */
-        if (xSemaphoreTake(uixMutex, portMAX_DELAY) == pdTRUE)
-        {
-            lv_task_handler();
-            xSemaphoreGive(uixMutex);
-        }
-        vTaskDelay(1);
+        lv_task_handler();
+        xSemaphoreGive(uixMutex);
+        vTaskDelay(20);
     }
 
     vTaskDelete(NULL);
