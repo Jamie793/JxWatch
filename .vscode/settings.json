@@ -17,5 +17,7 @@
         "stdbool.h": "c",
         "semphr.h": "c"
     },
-    "cortex-debug.variableUseNaturalFormat": false
+    "cortex-debug.variableUseNaturalFormat": false,
+    "cmake.buildDirectory": "${workspaceFolder}/Software/build",
+    "cmake.sourceDirectory": "J:/Projects/2-Embedded/STM32/JxWatch/Software"
 }
