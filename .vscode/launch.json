@@ -1,20 +1,20 @@
 {
     "configurations": [
         {
-            "cwd": "${workspaceRoot}",
-            "executable": "./build/JxWatch.elf",
+            "cwd": "${workspaceFolder}",
+            "executable": "./Software/build/JxWatch.elf",
             "name": "Debug with OpenOCD",
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",
             "configFiles": [
-                "E:/4-ENV/xpack-openocd-0.12.0-4/openocd/scripts/interface/stlink.cfg",
-                "E:/4-ENV/xpack-openocd-0.12.0-4/openocd/scripts/target/stm32l4x.cfg"
+                "${workspaceFolder}/Software/openocd/stlink.cfg",
+                "${workspaceFolder}/Software/openocd/stm32l4x.cfg"
             ],
             "searchDir": [],
             "runToEntryPoint": "main",
             "showDevDebugOutput": "none",
-            "svdPath": "${workspaceFolder}/STM32L4x1.svd"
+            "svdPath": "./STM32L4x1.svd"
         }
     ]
 }
