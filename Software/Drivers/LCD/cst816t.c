@@ -76,3 +76,9 @@ uint16_t cst816t_read_x(void){
 uint16_t cst816t_read_y(void){
     return (cst816t_read_reg(0x05) << 8) | cst816t_read_reg(0x06);
 }
+
+void cst816t_init(void){
+    cst816t_write_reg(CST816T_IRQCTL, CST816T_IRQCTL_ENTOUCH_MASK | CST816T_IRQCTL_ENCHANGE_MASK | CST816T_IRQCTL_ENMOTION_MASK | CST816T_IRQCTL_ONCEWLP_MASK);
+    
+
+}
