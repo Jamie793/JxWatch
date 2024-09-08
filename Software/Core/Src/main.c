@@ -59,6 +59,7 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 extern void app_test(void);
+extern void app_init(void);
 void vApplicationTickHook(void)
 {
   lv_tick_inc(10);
@@ -126,6 +127,9 @@ int main(void)
 
   // Test
   app_test();
+
+  /* Initialize App*/
+  app_init();
 
 
   xTaskInit();
