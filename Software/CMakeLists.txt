@@ -77,6 +77,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
 
     # APP
+    ./App/app_main.c
     ./App/tasks/task_screen.c
     ./App/tasks/task_test.c
 
