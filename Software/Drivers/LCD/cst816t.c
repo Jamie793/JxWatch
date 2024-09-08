@@ -78,7 +78,12 @@ uint16_t cst816t_read_y(void){
 }
 
 void cst816t_init(void){
+    /* IRQ enabled*/
     cst816t_write_reg(CST816T_IRQCTL, CST816T_IRQCTL_ENTOUCH_MASK | CST816T_IRQCTL_ENCHANGE_MASK | CST816T_IRQCTL_ENMOTION_MASK | CST816T_IRQCTL_ONCEWLP_MASK);
+    
+    /* Sleep time unit:1s*/
+    cst816t_write_reg(0xF9, 60);
+
     
 
 }
