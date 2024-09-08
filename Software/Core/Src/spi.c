@@ -140,12 +140,8 @@ void HAL_SPI_MspInit(SPI_HandleTypeDef* spiHandle)
     __HAL_LINKDMA(spiHandle,hdmatx,hdma_spi1_tx);
 
     /* SPI1 interrupt Init */
-    HAL_NVIC_SetPriority(SPI1_IRQn, 0x05, 0);
+    HAL_NVIC_SetPriority(SPI1_IRQn, 0, 0);
     HAL_NVIC_EnableIRQ(SPI1_IRQn);
-
-    HAL_NVIC_SetPriority(DMA1_Channel3_IRQn, 0x05, 0);
-    HAL_NVIC_EnableIRQ(DMA1_Channel3_IRQn);
-    
   /* USER CODE BEGIN SPI1_MspInit 1 */
   
   /* USER CODE END SPI1_MspInit 1 */
