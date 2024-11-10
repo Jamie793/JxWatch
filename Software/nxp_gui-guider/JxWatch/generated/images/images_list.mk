@@ -1,0 +1,1 @@
+GEN_CSRCS += _weather_duoyun_alpha_20x20.c _weather_baoyu_alpha_20x20.c _weather_zhenyu_alpha_20x20.c _weather_yin_alpha_20x20.c _weather4_alpha_20x20.c _weather_alpha_50x50.c
