@@ -2,19 +2,19 @@
     "configurations": [
         {
             "cwd": "${workspaceFolder}",
-            "executable": "./Software/build/JxWatch.elf",
+            "executable": "./Software/STM32L496RGT6-main/build/JxWatch.elf",
             "name": "Debug with OpenOCD",
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",
             "configFiles": [
-                "${workspaceFolder}/Software/openocd/stlink.cfg",
-                "${workspaceFolder}/Software/openocd/stm32l4x.cfg"
+                "${workspaceFolder}/Software/STM32L496RGT6-main/openocd/stlink.cfg",
+                "${workspaceFolder}/Software/STM32L496RGT6-main/openocd/stm32l4x.cfg"
             ],
             "searchDir": [],
             "runToEntryPoint": "main",
             "showDevDebugOutput": "none",
-            "svdPath": "./STM32L4x1.svd"
+            "svdPath": "${workspaceFolder}/Software/STM32L496RGT6-main/STM32L4x6.svd"
         }
     ]
 }
