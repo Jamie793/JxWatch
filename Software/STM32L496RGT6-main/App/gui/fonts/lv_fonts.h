@@ -2,18 +2,17 @@
 #define __LV_FONTS_JAMIEXU_H__
 #include "lv_fonts.h"
 
-LV_IMG_DECLARE(_weather_duoyun_alpha_20x20);
-LV_IMG_DECLARE(_weather_baoyu_alpha_20x20);
-LV_IMG_DECLARE(_weather_zhenyu_alpha_20x20);
-LV_IMG_DECLARE(_weather_yin_alpha_20x20);
-LV_IMG_DECLARE(_weather4_alpha_20x20);
-LV_IMG_DECLARE(_weather_alpha_50x50);
+// LV_IMG_DECLARE(_weather_duoyun_alpha_20x20);
+// LV_IMG_DECLARE(_weather_baoyu_alpha_20x20);
+// LV_IMG_DECLARE(_weather_zhenyu_alpha_20x20);
+// LV_IMG_DECLARE(_weather_yin_alpha_20x20);
+// LV_IMG_DECLARE(_weather4_alpha_20x20);
+// LV_IMG_DECLARE(_weather_alpha_50x50);
 
-LV_FONT_DECLARE(lv_font_Acme_Regular_68)
-LV_FONT_DECLARE(lv_font_montserratMedium_16)
-LV_FONT_DECLARE(lv_font_Acme_Regular_48)
-LV_FONT_DECLARE(lv_font_montserratMedium_12)
-LV_FONT_DECLARE(lv_font_Acme_Regular_13)
-LV_FONT_DECLARE(lv_font_montserratMedium_32)
+// LV_FONT_DECLARE(lv_font_montserratMedium_12)
+// LV_FONT_DECLARE(lv_font_montserratMedium_16)
+// LV_FONT_DECLARE(lv_font_montserratMedium_32)
+// LV_FONT_DECLARE(lv_font_montserratMedium_48)
+// LV_FONT_DECLARE(lv_font_montserratMedium_63)
 
 #endif

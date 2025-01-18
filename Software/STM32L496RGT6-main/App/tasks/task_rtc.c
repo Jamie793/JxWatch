@@ -3,7 +3,7 @@
 #include "ui_main.h"
 #include "stdio.h"
 
-extern lv_ui ui_main;
+extern lv_ui_main_t ui_main;
 static RTC_TimeTypeDef currentTime;
 static RTC_DateTypeDef currentData;
 uint8_t rtcBuf[10] = "08:08";

@@ -3,7 +3,8 @@
 TaskHandle_t lvglTaskToNotify;
 uint8_t lv_task_handler_notification = 1;
 extern void app_setup(void);
-extern lv_ui ui_main;
+extern lv_ui_main_t ui_main;
+
 portTASK_FUNCTION_PROTO(xtask_lvgl_tick, pvParameters)
 {
     for (;;)
@@ -24,8 +25,8 @@ portTASK_FUNCTION_PROTO(xtask_lvgl_handler, pvParameters)
     lv_port_indev_init();
 
     /* Initialize UI*/
-    // ui_init();
-    lv_demo_benchmark();
+    ui_init();
+    // lv_demo_benchmark();
     // lv_demo_music();
     // lv_demo_widgets();
     HAL_GPIO_WritePin(LCD_BL_GPIO_Port, LCD_BL_Pin, GPIO_PIN_SET);

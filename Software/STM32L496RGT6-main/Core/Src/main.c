@@ -115,6 +115,8 @@ int main(void)
 	MX_RTC_Init();
 	/* USER CODE BEGIN 2 */
 
+	// HAL_GPIO_WritePin(ESP_EN_CTL_GPIO_Port, ESP_EN_CTL_Pin, GPIO_PIN_SET);
+
 	// BSP Initialization
 	st7789v_init();
 

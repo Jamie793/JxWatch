@@ -18,32 +18,38 @@ extern "C" {
 typedef struct
 {
   
-	lv_obj_t *screen_main;
-	bool screen_main_del;
-	lv_obj_t *screen_main_tileview_main;
-	lv_obj_t *screen_main_tileview_main_tile;
-	lv_obj_t *screen_main_tileview_main_tile_1;
-	lv_obj_t *screen_main_label_time;
-	lv_obj_t *screen_main_label_date;
-	lv_obj_t *screen_main_meter_battery;
-	lv_meter_scale_t *screen_main_meter_battery_scale_0;
-	lv_meter_indicator_t *screen_main_meter_battery_scale_0_ndline_0;
-	lv_obj_t *screen_main_chart_heart;
-	lv_chart_series_t *screen_main_chart_heart_0;
-	lv_obj_t *screen_main_label_info;
-	lv_obj_t *screen_main_label_bluetooth;
-	lv_obj_t *screen_main_label_wifi;
-	lv_obj_t *screen_main_cont_1;
-	lv_obj_t *screen_main_list_1;
-	lv_obj_t *screen_main_list_1_item0;
-	lv_obj_t *screen_main_list_1_item1;
-	lv_obj_t *screen_main_list_1_item2;
-	lv_obj_t *screen_main_list_1_item3;
-	lv_obj_t *screen_main_list_1_item4;
-	lv_obj_t *screen_main_img_1;
-	lv_obj_t *screen_main_label_weather_sub;
-	lv_obj_t *screen_main_label_weather_main;
-	lv_obj_t *screen_main_label_8;
+	lv_obj_t *scrMain;
+	bool scrMain_del;
+	lv_obj_t *scrMain_tileview;
+	lv_obj_t *scrMain_tileview_tileMain;
+	lv_obj_t *scrMain_tileview_tileWeather;
+	lv_obj_t *scrMain_tileview_tileSettings;
+	lv_obj_t *scrMain_tileview_tileMenu;
+	lv_obj_t *scrMain_labelTime;
+	lv_obj_t *scrMain_labelDate;
+	lv_obj_t *scrMain_chartHeart;
+	lv_obj_t *scrMain_textprogressBattery;
+	lv_obj_t *scrMain_img_2;
+	lv_obj_t *scrMain_cont_1;
+	lv_obj_t *scrMain_tableWeatherInfo;
+	lv_obj_t *scrMain_imageWeather;
+	lv_obj_t *scrMain_labelSubWeather;
+	lv_obj_t *scrMain_labelWeather;
+	lv_obj_t *scrMain_label_8;
+	lv_obj_t *scrCalendar;
+	bool scrCalendar_del;
+	lv_obj_t *scrCalendar_calendar_1;
+	lv_obj_t *screen_1;
+	bool screen_1_del;
+	lv_obj_t *screen_1_img_8;
+	lv_obj_t *screen_1_img_7;
+	lv_obj_t *screen_1_img_6;
+	lv_obj_t *screen_1_img_5;
+	lv_obj_t *screen_1_img_4;
+	lv_obj_t *screen_1_img_3;
+	lv_obj_t *screen_1_img_2;
+	lv_obj_t *screen_1_img_1;
+	lv_obj_t *screen_1_label_1;
 }lv_ui;
 
 typedef void (*ui_setup_scr_t)(lv_ui * ui);
@@ -66,20 +72,26 @@ void setup_ui(lv_ui *ui);
 extern lv_ui guider_ui;
 
 
-void setup_scr_screen_main(lv_ui *ui);
-LV_IMG_DECLARE(_weather_duoyun_alpha_20x20);
-LV_IMG_DECLARE(_weather_baoyu_alpha_20x20);
-LV_IMG_DECLARE(_weather_zhenyu_alpha_20x20);
-LV_IMG_DECLARE(_weather_yin_alpha_20x20);
-LV_IMG_DECLARE(_weather4_alpha_20x20);
+void setup_scr_scrMain(lv_ui *ui);
+void setup_scr_scrCalendar(lv_ui *ui);
+void setup_scr_screen_1(lv_ui *ui);
+LV_IMG_DECLARE(_Lightning_alpha_18x18);
 LV_IMG_DECLARE(_weather_alpha_50x50);
+LV_IMG_DECLARE(_time_alpha_30x30);
+LV_IMG_DECLARE(_timer_alpha_30x30);
+LV_IMG_DECLARE(_weather_qing_alpha_30x30);
+LV_IMG_DECLARE(_Bed_alpha_40x40);
+LV_IMG_DECLARE(_calculator_alpha_30x30);
+LV_IMG_DECLARE(_alarm_alpha_30x30);
+LV_IMG_DECLARE(_heart_alpha_30x30);
+LV_IMG_DECLARE(_calender_alpha_30x30);
 
-LV_FONT_DECLARE(lv_font_Acme_Regular_68)
+LV_FONT_DECLARE(lv_font_montserratMedium_63)
 LV_FONT_DECLARE(lv_font_montserratMedium_16)
-LV_FONT_DECLARE(lv_font_Acme_Regular_48)
+LV_FONT_DECLARE(lv_font_montserratMedium_48)
 LV_FONT_DECLARE(lv_font_montserratMedium_12)
-LV_FONT_DECLARE(lv_font_Acme_Regular_13)
 LV_FONT_DECLARE(lv_font_montserratMedium_32)
+LV_FONT_DECLARE(lv_font_huawenkaiti_18)
 
 
 #ifdef __cplusplus

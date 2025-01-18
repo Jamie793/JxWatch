@@ -1,1 +1,1 @@
-GEN_CSRCS += _weather_duoyun_alpha_20x20.c _weather_baoyu_alpha_20x20.c _weather_zhenyu_alpha_20x20.c _weather_yin_alpha_20x20.c _weather4_alpha_20x20.c _weather_alpha_50x50.c
+GEN_CSRCS += _Lightning_alpha_18x18.c _weather_alpha_50x50.c _time_alpha_30x30.c _timer_alpha_30x30.c _weather_qing_alpha_30x30.c _Bed_alpha_40x40.c _calculator_alpha_30x30.c _alarm_alpha_30x30.c _heart_alpha_30x30.c _calender_alpha_30x30.c

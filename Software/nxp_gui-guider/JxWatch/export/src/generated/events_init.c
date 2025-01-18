@@ -16,7 +16,7 @@
 #endif
 
 
-static void screen_main_event_handler (lv_event_t *e)
+static void scrMain_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
     switch (code) {
@@ -29,9 +29,9 @@ static void screen_main_event_handler (lv_event_t *e)
     }
 }
 
-void events_init_screen_main (lv_ui *ui)
+void events_init_scrMain (lv_ui *ui)
 {
-	lv_obj_add_event_cb(ui->screen_main, screen_main_event_handler, LV_EVENT_ALL, ui);
+	lv_obj_add_event_cb(ui->scrMain, scrMain_event_handler, LV_EVENT_ALL, ui);
 }
 
 

@@ -1,1 +1,1 @@
-GEN_CSRCS += 1.c
+GEN_CSRCS += alarm.c Bed.c BloodOxygen.c bluetoothon.c calculator.c calender.c disconnectdevice.c heart.c Lightning.c time.c

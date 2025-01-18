@@ -434,13 +434,13 @@
 
 #define LV_USE_BTN 1
 
-#define LV_USE_BTNMATRIX 0
+#define LV_USE_BTNMATRIX 1
 
 #define LV_USE_CANVAS 0
 
 #define LV_USE_CHECKBOX 0
 
-#define LV_USE_DROPDOWN 0
+#define LV_USE_DROPDOWN 1
 
 #define LV_USE_IMG 1
 
@@ -469,7 +469,7 @@
 #define LV_TEXTAREA_DEF_PWD_SHOW_TIME 1500
 #endif    /* LV_USE_TEXTAREA */
 
-#define LV_USE_TABLE 0
+#define LV_USE_TABLE 1
 
 /*==================
  * EXTRA COMPONENTS
@@ -483,7 +483,7 @@
 
 #define LV_USE_ANIMIMG 0
 
-#define LV_USE_CALENDAR 0
+#define LV_USE_CALENDAR 1
 #if LV_USE_CALENDAR
 #define LV_CALENDAR_WEEK_STARTS_MONDAY 0
 #if LV_CALENDAR_WEEK_STARTS_MONDAY == 0
@@ -496,7 +496,7 @@
 
 #define LV_USE_CAROUSEL 0
 
-#define LV_USE_CHART 0
+#define LV_USE_CHART 1
 
 #define LV_USE_COLORWHEEL 0
 
@@ -508,7 +508,7 @@
 
 #define LV_USE_LED 0
 
-#define LV_USE_LIST 1
+#define LV_USE_LIST 0
 
 #define LV_USE_MENU 0
 
@@ -716,7 +716,7 @@
 #endif    /* LV_IME_PINYIN_USE_K9_MODE */
 #endif    /* LV_USE_IME_PINYIN */
 /*Enable the text progress bar*/
-#define LV_USE_TEXTPROGRESS 0
+#define LV_USE_TEXTPROGRESS 1
 /*Enable the barcode*/
 #define LV_USE_BARCODE 0
 
