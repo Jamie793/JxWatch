@@ -1,6 +1,0 @@
-[submodule "lv_port_pc_vscode"]
-	path = lv_port_pc_vscode
-	url = https://github.com/lvgl/lv_port_pc_vscode.git
-[submodule "Software/STM32L496RGT6-main/lv_port_pc_vscode"]
-	path = Software/STM32L496RGT6-main/lv_port_pc_vscode
-	url = https://github.com/lvgl/lv_port_pc_vscode.git
